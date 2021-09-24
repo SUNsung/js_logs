@@ -1,16 +1,23 @@
+/*
+*   create: 2021-09-24
+*   autor: SUNsung
+*   comtact: git@embedded.biz.ua
+*
+*/
+
 class LoggerMethodsV1 {
 
-    m3uh26h2x49bhe57 = {};  //ГЛобальный буфер справки
-    f8435ezxr6k95xc8 = {};  //Буфер логов
-    up87ua925a5zst58 = [];  //Буфер группы
+    m3uh26h2x49bhe57 = {};
+    f8435ezxr6k95xc8 = {};
+    up87ua925a5zst58 = [];
 
-    mxrn39ed7rt65325 = true;//Выводить  ошибки в консоль
-    vt2svj89m96u86p6 = true;//Выводить  логи в консоль
-    d5fbi5y5378m4k5j = true;//Выводить  инфо в консоль
+    mxrn39ed7rt65325 = true;
+    vt2svj89m96u86p6 = true;
+    d5fbi5y5378m4k5j = true;
 
-    b2anipr342h345c4 = function (){};   //Функция вызова при единичном срабатывании
-    c323gm3negr833m7 = function (){};   //Функция вызова в стеке группы
-    b386bn8zre76z7d2 = function (){};   //Функция вызова в случае отлова ошибки
+    b2anipr342h345c4 = function (){};
+    c323gm3negr833m7 = function (){};
+    b386bn8zre76z7d2 = function (){};
 
     constructor(func_point_call, func_group_call, func_error_call) {
 
