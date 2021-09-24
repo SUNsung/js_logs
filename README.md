@@ -26,4 +26,4 @@ log.endGroup();
 .
 .
 
-console.log(log.help("ru"));
+console.log( log.help("ru") );
