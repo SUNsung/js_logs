@@ -132,7 +132,8 @@ class LoggerMethodsV1 {
 
     }
     __toString(str){
-        str = str.replace(/ /g,"_");
+        if(typeof str === 'string')
+            str = str.replace(/ /g,"_");
         //  str = str.replace(/[^ -~]+/g, "");
 
         return str;
